@@ -1,0 +1,15 @@
+.container {
+    display: inline-grid;
+    /* grid-row-gap:150px; */
+}
+
+h1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid black;
+}
+
+p {
+    border: 1px solid black;
+    width:50%;
+}
